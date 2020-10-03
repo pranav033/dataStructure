@@ -13,7 +13,7 @@ void main()
   high=n-1;
   while(low<=high)
   {
-    mid=(low+high)/2;
+    mid=low+(high-low)/2;
     if(strcmp(names[mid],key)==0)
     {
       printf("SUCCESSFUL SEARCH\n");
